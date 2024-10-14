@@ -12,12 +12,12 @@ class NamesScreen extends StatelessWidget {
       body: Container(
         // color: Colors.red,
         child: ListView.separated(
-          itemBuilder: (context, index) => Text('New Student'),
-          separatorBuilder: (context, index) => SizedBox(
+          itemBuilder: (context, index) => const Text('New Student'),
+          separatorBuilder: (context, index) => const SizedBox(
             height: 20,
           ),
           itemCount: 30,
-          physics: BouncingScrollPhysics(),
+          physics: const BouncingScrollPhysics(),
         ),
       ),
     );

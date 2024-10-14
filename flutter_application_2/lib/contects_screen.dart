@@ -10,28 +10,28 @@ class ContactsScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Contacts Screen"),
+        title: const Text("Contacts Screen"),
       ),
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.center,
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          SizedBox(
+          const SizedBox(
             height: 30,
           ),
           Text(
             name,
-            style: TextStyle(
+            style: const TextStyle(
               fontSize: 40,
             ),
           ),
-          SizedBox(
+          const SizedBox(
             height: 30,
           ),
-          Center(
+          const Center(
             child: Text('My Contacts Screen'),
           ),
-          SizedBox(
+          const SizedBox(
             height: 30,
           ),
           ElevatedButton(
@@ -41,7 +41,7 @@ class ContactsScreen extends StatelessWidget {
                 screen: homescreen(),
               );
             },
-            child: Text('Go Back'),
+            child: const Text('Go Back'),
           ),
         ],
       ),

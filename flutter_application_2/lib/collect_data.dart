@@ -83,7 +83,7 @@ class CollectUserData extends StatelessWidget {
                       name : name.text
                       ),
                   );
-                };
+                }
               },
               child: const Text("Pass Data"),
             ),

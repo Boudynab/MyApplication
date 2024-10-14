@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_2/batman.dart';
 import 'package:flutter_application_2/joker.dart';
-import 'package:flutter_application_2/listscreen.dart';
 import 'package:flutter_application_2/shredmethods.dart';
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -50,7 +49,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   const SizedBox(width: 20),
                   ElevatedButton(
                     onPressed: () {
-                      goto(context : context ,screen:  joker());
+                      goto(context : context ,screen:  const joker());
                     },
                     style: ElevatedButton.styleFrom(
                       textStyle: const TextStyle(fontSize: 20),
