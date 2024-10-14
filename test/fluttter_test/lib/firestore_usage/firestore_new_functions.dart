@@ -11,7 +11,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 class AddUser extends StatelessWidget {
   UserModel user;
 
-  AddUser({required this.user});
+  AddUser({super.key, required this.user});
 
   @override
   Widget build(BuildContext context) {
@@ -31,7 +31,7 @@ class AddUser extends StatelessWidget {
               child: const Text('Add User'),
             ),
             const SizedBox(height: 20),
-            GetUserName("MHLTfaWPH4WP5fdG8mRt"),
+            const GetUserName("MHLTfaWPH4WP5fdG8mRt"),
           ],
         ),
       ),

@@ -12,9 +12,9 @@ class UserModel {
   // Ensure you're returning a Map, not a Set
   Map<String, dynamic> toMap({required UserModel user}) {
     return {
-      'name': this.name,
-      'phonenumber': this.phonenumber,
-      'age': this.age,
+      'name': name,
+      'phonenumber': phonenumber,
+      'age': age,
     };
   }
  UserModel fromMap({required Map<String, dynamic> data}) {
